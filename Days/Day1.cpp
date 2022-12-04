@@ -21,3 +21,20 @@ int Day1::part1(std::string input)
     file.close();
     return maxCal;
 }
+
+int Day1::part2(std::string input)
+{
+    std::string line;
+    std::ifstream file(input);
+
+    std::vector<int> calories = { 0 };
+
+    while (getline(file, line)) {
+        if (line != "") calories.back() += std::stoi(line);
+        else calories.push_back(0);
+    }
+    file.close();
+
+    std::sort(calories.begin(), calories.end(), std::greater<int>());
+    return std::accumulate(calories.begin(),calories.begin()+3,0);
+}
