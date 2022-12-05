@@ -34,4 +34,10 @@ public:
 	static int part2(std::string input);
 };
 
+class Day5 {
+public:
+	static std::string part1(std::string input);
+	static std::string part2(std::string input);
+};
+
 #endif
