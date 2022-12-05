@@ -11,7 +11,8 @@ int main() {
 		"\tPart 2: " << Day1::part2("Inputs/day1.txt") << std::endl <<
 
 		"Day 2: Rock Paper Scissors" << std::endl <<
-		"\tPart 1: " << Day2::part1("Inputs/day2.txt") << std::endl;
+		"\tPart 1: " << Day2::part1("Inputs/day2.txt") << std::endl <<
+		"\tPart 2: " << Day2::part2("Inputs/day2.txt") << std::endl;
 
 	return 0;
 }
