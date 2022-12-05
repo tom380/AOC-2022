@@ -20,4 +20,12 @@ public:
 	static int part2(std::string input);
 };
 
+class Day3 {
+public:
+	static int part1(std::string input);
+	static int part2(std::string input);
+private:
+	static char findCommonChar(std::vector<std::string> strings);
+};
+
 #endif
