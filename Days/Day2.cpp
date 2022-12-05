@@ -2,7 +2,7 @@
 
 int Day2::part1(std::string input) {
 	std::string line;
-	std::fstream file(input);
+	std::ifstream file(input);
 
 	int totalScore = 0;
 
@@ -13,12 +13,13 @@ int Day2::part1(std::string input) {
 		else if (line.front() - 'A' == line.back() - 'X') totalScore += 3;
 	}
 
+	file.close();
 	return totalScore;
 }
 
 int Day2::part2(std::string input) {
 	std::string line;
-	std::fstream file(input);
+	std::ifstream file(input);
 
 	int totalScore = 0;
 
@@ -45,5 +46,6 @@ int Day2::part2(std::string input) {
 		}
 	}
 
+	file.close();
 	return totalScore;
 }

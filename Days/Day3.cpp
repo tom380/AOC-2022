@@ -2,7 +2,7 @@
 
 int Day3::part1(std::string input) {
 	std::string line;
-	std::fstream file(input);
+	std::ifstream file(input);
 
 	int prioritySum = 0;
 
@@ -14,12 +14,13 @@ int Day3::part1(std::string input) {
 		prioritySum += itemType < 'a' ? (itemType - 'A' + 27) : (itemType - 'a' + 1);
 	}
 
+	file.close();
 	return prioritySum;
 }
 
 int Day3::part2(std::string input) {
 	std::string line;
-	std::fstream file(input);
+	std::ifstream file(input);
 
 	int prioritySum = 0;
 
@@ -36,6 +37,7 @@ int Day3::part2(std::string input) {
 		prioritySum += itemType < 'a' ? (itemType - 'A' + 27) : (itemType - 'a' + 1);
 	}
 
+	file.close();
 	return prioritySum;
 }
 

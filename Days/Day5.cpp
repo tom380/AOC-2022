@@ -2,7 +2,7 @@
 
 std::string Day5::part1(std::string input) {
 	std::string line;
-	std::fstream file(input);
+	std::ifstream file(input);
 
 	const int stacksAmount = 9;
 
@@ -29,12 +29,13 @@ std::string Day5::part1(std::string input) {
 	std::string topCrates;
 	for (std::vector<char> stack : stacks) if (!stack.empty()) topCrates.push_back(stack.back());
 
+	file.close();
 	return topCrates;
 }
 
 std::string Day5::part2(std::string input) {
 	std::string line;
-	std::fstream file(input);
+	std::ifstream file(input);
 
 	const int stacksAmount = 9;
 
@@ -61,5 +62,6 @@ std::string Day5::part2(std::string input) {
 	std::string topCrates;
 	for (std::vector<char> stack : stacks) if (!stack.empty()) topCrates.push_back(stack.back());
 
+	file.close();
 	return topCrates;
 }

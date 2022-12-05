@@ -2,7 +2,7 @@
 
 int Day4::part1(std::string input) {
 	std::string line;
-	std::fstream file(input);
+	std::ifstream file(input);
 
 	int containingPairs = 0;
 
@@ -16,12 +16,13 @@ int Day4::part1(std::string input) {
 		if ((lowA >= lowB && upA <= upB) || (lowA <= lowB && upA >= upB)) containingPairs++;
 	}
 
+	file.close();
 	return containingPairs;
 }
 
 int Day4::part2(std::string input) {
 	std::string line;
-	std::fstream file(input);
+	std::ifstream file(input);
 
 	int overlapPairs = 0;
 
@@ -35,5 +36,6 @@ int Day4::part2(std::string input) {
 		if (!(upA < lowB || lowA > upB)) overlapPairs++;
 	}
 
+	file.close();
 	return overlapPairs;
 }
