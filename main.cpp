@@ -24,7 +24,11 @@ int main() {
 
 		"--- Day 5: Supply Stacks ---" << std::endl <<
 		"\tPart 1: " << Day5::part1("Inputs/day5.txt") << std::endl <<
-		"\tPart 2: " << Day5::part2("Inputs/day5.txt") << std::endl << std::endl;
+		"\tPart 2: " << Day5::part2("Inputs/day5.txt") << std::endl << std::endl <<
+
+		"--- Day 6: Tuning Trouble ---" << std::endl <<
+		"\tPart 1: " << Day6::part1("Inputs/day6.txt") << std::endl <<
+		"\tPart 2: " << Day6::part2("Inputs/day6.txt") << std::endl << std::endl;
 
 	return 0;
 }

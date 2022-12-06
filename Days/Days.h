@@ -40,4 +40,12 @@ public:
 	static std::string part2(std::string input);
 };
 
+class Day6 {
+public:
+	static int part1(std::string input);
+	static int part2(std::string input);
+private:
+	static bool hasDuplicate(std::vector<char> v);
+};
+
 #endif
