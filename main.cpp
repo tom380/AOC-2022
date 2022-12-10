@@ -32,7 +32,11 @@ int main() {
 
 		"--- Day 7: No Space Left On Device ---" << std::endl <<
 		"\tPart 1: " << Day7::part1("Inputs/day7.txt") << std::endl <<
-		"\tPart 2: " << Day7::part2("Inputs/day7.txt") << std::endl << std::endl;
+		"\tPart 2: " << Day7::part2("Inputs/day7.txt") << std::endl << std::endl <<
+
+		"--- Day 8: Treetop Tree House ---" << std::endl <<
+		"\tPart 1: " << Day8::part1("Inputs/day8.txt") << std::endl <<
+		"\tPart 2: " << Day8::part1("Inputs/day8.txt") << std::endl << std::endl;
 
 	return 0;
 }

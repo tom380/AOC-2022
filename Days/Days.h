@@ -46,4 +46,9 @@ namespace Day7 {
 	int scanDir(std::ifstream& commandPrompt, std::vector<int>& dirSizes);
 }
 
+namespace Day8 {
+	int part1(std::string input);
+	int part2(std::string input);
+}
+
 #endif
