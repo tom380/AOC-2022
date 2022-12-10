@@ -48,4 +48,12 @@ private:
 	static bool hasDuplicate(std::vector<char> v);
 };
 
+class Day7 {
+public:
+	static int part1(std::string input);
+	static int part2(std::string input);
+private:
+	static int scanDir(std::ifstream& commandPrompt, std::vector<int>& dirSizes);
+};
+
 #endif

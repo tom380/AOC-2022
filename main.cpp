@@ -28,7 +28,11 @@ int main() {
 
 		"--- Day 6: Tuning Trouble ---" << std::endl <<
 		"\tPart 1: " << Day6::part1("Inputs/day6.txt") << std::endl <<
-		"\tPart 2: " << Day6::part2("Inputs/day6.txt") << std::endl << std::endl;
+		"\tPart 2: " << Day6::part2("Inputs/day6.txt") << std::endl << std::endl <<
+
+		"--- Day 7: No Space Left On Device ---" << std::endl <<
+		"\tPart 1: " << Day7::part1("Inputs/day7.txt") << std::endl <<
+		"\tPart 2: " << Day7::part2("Inputs/day7.txt") << std::endl << std::endl;
 
 	return 0;
 }
