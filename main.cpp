@@ -36,7 +36,7 @@ int main() {
 
 		"--- Day 8: Treetop Tree House ---" << std::endl <<
 		"\tPart 1: " << Day8::part1("Inputs/day8.txt") << std::endl <<
-		"\tPart 2: " << Day8::part1("Inputs/day8.txt") << std::endl << std::endl;
+		"\tPart 2: " << Day8::part2("Inputs/day8.txt") << std::endl << std::endl;
 
 	return 0;
 }
