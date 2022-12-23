@@ -44,7 +44,11 @@ int main() {
 
 		"--- Day 10: Cathode-Ray Tube ---" << std::endl <<
 		"\tPart 1: " << Day10::part1("Inputs/day10.txt") << std::endl <<
-		"\tPart 2: " << Day10::part2("Inputs/day10.txt") << std::endl << std::endl;
+		"\tPart 2: " << Day10::part2("Inputs/day10.txt") << std::endl << std::endl <<
+
+		"--- Day 11: Monkey in the Middle ---" << std::endl <<
+		"\tPart 1: " << Day11::part1("Inputs/day11.txt") << std::endl <<
+		"\tPart 2: " << Day11::part2("Inputs/day11.txt") << std::endl;
 
 	return 0;
 }

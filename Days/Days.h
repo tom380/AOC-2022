@@ -7,6 +7,8 @@
 #include <vector>
 #include <algorithm>
 #include <numeric>
+#include <functional>
+#include <sstream>
 
 namespace Day1 {
 	int part1(std::string input);
@@ -59,6 +61,11 @@ namespace Day9 {
 namespace Day10 {
 	int part1(std::string input);
 	std::string part2(std::string input);
+}
+
+namespace Day11 {
+	uint64_t part1(std::string input);
+	uint64_t part2(std::string input);
 }
 
 #endif
