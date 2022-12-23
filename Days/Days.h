@@ -68,4 +68,9 @@ namespace Day11 {
 	uint64_t part2(std::string input);
 }
 
+namespace Day12 {
+	int part1(std::string input);
+	int part2(std::string input);
+}
+
 #endif
