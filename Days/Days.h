@@ -78,4 +78,9 @@ namespace Day13 {
 	int part2(std::string input);
 }
 
+namespace Day14 {
+	int part1(std::string input);
+	int part2(std::string input);
+}
+
 #endif

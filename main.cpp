@@ -56,7 +56,11 @@ int main() {
 
 		"--- Day 13: Distress Signal ---" << std::endl <<
 		"\tPart 1: " << Day13::part1("Inputs/day13.txt") << std::endl <<
-		"\tPart 2: " << Day13::part2("Inputs/day13.txt") << std::endl << std::endl;
+		"\tPart 2: " << Day13::part2("Inputs/day13.txt") << std::endl << std::endl <<
+
+		"--- Day 14: Regolith Reservoir ---" << std::endl <<
+		"\tPart 1: " << Day14::part1("Inputs/day14.txt") << std::endl <<
+		"\tPart 2: " << Day14::part2("Inputs/day14.txt") << std::endl << std::endl;
 
 	return 0;
 }
